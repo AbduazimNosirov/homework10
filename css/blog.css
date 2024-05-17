@@ -50,15 +50,29 @@ hr{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.end {
+
+.navigation a{
+    color: #FF6464;
+}
+.actions {
     width: 1152px;
-    height: 182px;
-    top: 1079px;
-    width: 30px;
-    height: 30px;
+    height: 182px; 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 50px;
-    gap: 20px;   
+    gap: 30px;
+    margin-left: 70px;
+
+}
+.actions i{
+    font-size: 30px;
+
+}
+.end{     
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.56px;
+    text-align: center;
+    margin-bottom: 50px;
+
 }
